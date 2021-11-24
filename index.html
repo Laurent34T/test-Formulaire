@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-------------------------------------------- META -------------------------------------------->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------------------------------------- TITLE -------------------------------------------->
+    <title></title>
+    <!------------------------------------------- FONTS CSS ---------------------------------------->
+    <link rel="stylesheet" href="fonts.css">
+    <!------------------------------------------- THEME CSS ---------------------------------------->
+    <link rel="stylesheet" href="themes.css">
+    <!------------------------------------------- CSS ---------------------------------------------->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- FORMUALIRE ------------------------------------------------------------------------------------->
+    <form action="#" method="post">
+<!-- En-tête / TITRE ---------------------------->
+        <header>
+            <h1 class="c_white"><i class="fas fa-user c_white icon"></i>Create account</h1>
+        </header>
+
+<!-- CHAMPS DU FORMULAIRE ----------------------->
+        <main>
+<!-- ROW IDENTITY ------------------------------->
+                <section class="identity">
+                <!-- FIRST NAME ----------------->
+                    <article class="col">
+                        <label for="firstName">First Name*</label>
+                        <input type="text" name="btn_firstName" id="firstName" placeholder="Enter your first name" maxlength="50" pattern="[A-Za-z -]+[^0-9]">
+                    </article>
+                    
+                <!-- LAST NAME ------------------>
+                    <article class="col_right">
+                        <label for="lastName">Last Name*</label>
+                        <input type="text" name="btn_lastName" id="lastName" placeholder="Enter your last name">
+                    </article>
+                </section>
+
+<!-- ROW EMAIL ---------------------------------->
+                <section class="email">
+                    <article>
+                        <label for="email">Email*</label>
+                        <input type="email" name="btn_email" id="email" placeholder="Enter your email">
+                    </article>
+                </section>
+
+<!-- ROW PASSWORD -------------------------------->
+                <section class="password">
+                    <!-- PASSWORD ---------------->
+                        <article class="col">
+                            <label for="password">Password*</label>
+                            <input type="text" name="btn_password" id="password" placeholder="Enter your password">
+                        </article>
+                    <!-- CONFIRM PASSWORD -------->
+                        <article class="col_right">
+                            <label for="confirmPassword">Confirm password*</label>
+                            <input type="text" name="btn_confirmPassword" id="confirmPassword" placeholder="Enter your password again">
+                        </article>
+                </section>
+
+<!-- ROW RADIO ----------------------------------->
+                <section class="radio">
+<!-- GENDER ----------------------------------->
+                    <section class="gender">                        
+                            <h2>Gender</h2>
+
+                            <input type="radio" name="btn_gender" id="gender_homme">
+                            <label for="gender_homme">Man</label>
+                        
+                            <input type="radio" name="btn_gender" id="gender_femme">
+                            <label for="gender_femme">Woman</label>
+                    </section>
+
+<!-- HOBBBIES ----------------------------------->
+                    <section class="hobbies col_right">
+                            <h2>Hobbies</h2>
+
+                            <div>
+                                <input type="checkbox" name="btn_hobbies" id="music">
+                                <label for="music">Music</label>
+
+                                <input type="checkbox" name="btn_hobbies" id="sport">
+                                <label for="sport">Sport</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="btn_hobbies" id="journey">
+                                <label for="journey">Journey</label>
+
+                                <input type="checkbox" name="btn_hobbies" id="cinema">
+                                <label for="cinema">Cinema</label>
+                            </div>
+                    </section>
+
+<!--ROW RADIO--></section><!--ROW RADIO----------->
+
+<!-- ROW STATUT + WAGES -------------------------->
+                <section class="firm">
+<!-- Statut choice ------------->
+                    <article class="col">
+                        <label for="statut">Work Statut</label>
+                        <select name="btn_statut" id="statut">
+                            <option value="">-- Pick up --</option>
+                            <option value="auto">Auto-entrepreneur</option>
+                            <option value="artiste">Artiste</option>
+                            <option value="artisan">Artisan</option>
+                        </select>
+                    </article>
+<!-- Wages --------------------->
+                    <article class="col_right wages">
+                        <label for="wages">Wages</label>
+                        <input type="range" name="btn_wages" id="wages" min="350" max="4000">
+                        <p class="wages_label">350 €</p>
+                    </article>
+                </section>
+
+
+<!-- ROW ADD PROFIL PICTURE + age ------------------->
+                <section class="profil_age">
+<!-- ROW ADD PICTURE ---------------------------->
+                    <article class="col picture">
+                        <label for="picture"><i class="fas fa-user c_white icon2"></i>Add your profil picture</label>
+                        <input type="file" name="btn_picture" id="picture">
+                    </article>
+
+<!-- ROW AGE ---------------------------->
+                    <article class="col_right">
+                        <label for="age">Age</label>
+                        <input type="number" name="btn_age" id="age" min="18" max="80" value="18">
+                    </article>
+                </section>
+
+<!-- ROW ABOUT YOU ---------------------------->
+                    <section>
+                        <article class="about_you">
+                            <textarea name="btn_bio" id="bio" placeholder="Tell us about you"></textarea>
+                        </article>
+                    </section>
+        </main>
+
+<!-- SUBMIT SECTION ---------------------------->
+        <footer>
+                <p>*Required field</p>
+                <input type="submit" value="Create">
+        </footer>
+
+    </form>
+
+
+
+
+
+    <!------------------------------------------- LINK ICON SCRIPT LIBRARY --------------------------------->
+    <script src="https://kit.fontawesome.com/ebaa7fdcf0.js" crossorigin="anonymous"></script>
+
+    <!------------------------------------------- SCRIPT ---------------------------------------------->
+    <script></script>
+</body>
+</html>

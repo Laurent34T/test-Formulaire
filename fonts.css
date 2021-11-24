@@ -1,0 +1,17 @@
+/******************** Fonts ***********************************************/
+@font-face {
+    font-family: "Segoe_UI";
+    src: url("./Fonts/Segoe_UI.woff");
+}
+@font-face {
+    font-family: "Segoe_UI_Bold";
+    src: url("./Fonts/Segoe_UI_Bold.woff");
+}
+@font-face {
+    font-family: "Segoe_UI_Bold_Italic";
+    src: url("./Fonts/Segoe_UI_Bold_Italic.woff");
+}
+@font-face {
+    font-family: "Segoe_UI_Italic";
+    src: url("./Fonts/Segoe_UI_Italic.woff");
+}
